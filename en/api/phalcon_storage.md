@@ -771,7 +771,7 @@ Exceptions thrown in Phalcon\Storage will use this class
 
 <h1 id="storage-serializer-abstractserializer">Abstract Class Phalcon\Storage\Serializer\AbstractSerializer</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Storage/Serializer/AbstractSerializer.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Storage/Serializer/Abstractserializer.zep)
 
 | Namespace  | Phalcon\Storage\Serializer |
 | Uses       | Phalcon\Storage\Exception |

@@ -230,7 +230,7 @@ Exceptions thrown in Phalcon\Html\Tag will use this class
 
 <h1 id="html-helper-abstracthelper">Abstract Class Phalcon\Html\Helper\AbstractHelper</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/AbstractHelper.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/Abstracthelper.zep)
 
 | Namespace  | Phalcon\Html\Helper |
 | Uses       | Phalcon\Html\Exception, Phalcon\Escaper\EscaperInterface |
@@ -315,7 +315,7 @@ public function __invoke( string $href, string $text, array $attributes = [] ): 
 
 <h1 id="html-helper-anchorraw">Class Phalcon\Html\Helper\AnchorRaw</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/AnchorRaw.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/Anchorraw.zep)
 
 | Namespace  | Phalcon\Html\Helper |
 | Extends    | AbstractHelper |
@@ -430,7 +430,7 @@ public function __invoke( string $tag, string $text, array $attributes = [] ): s
 
 <h1 id="html-helper-elementraw">Class Phalcon\Html\Helper\ElementRaw</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/ElementRaw.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/Elementraw.zep)
 
 | Namespace  | Phalcon\Html\Helper |
 | Uses       | Phalcon\Html\Exception |
@@ -521,7 +521,7 @@ public function __invoke( array $attributes = [] ): string;
 
 <h1 id="html-helper-textarea">Class Phalcon\Html\Helper\TextArea</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/TextArea.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Helper/Textarea.zep)
 
 | Namespace  | Phalcon\Html\Helper |
 | Extends    | AbstractHelper |
@@ -544,7 +544,7 @@ public function __invoke( string $text, array $attributes = [] ): string;
 
 <h1 id="html-link-evolvablelink">Class Phalcon\Html\Link\EvolvableLink</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/EvolvableLink.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/Evolvablelink.zep)
 
 | Namespace  | Phalcon\Html\Link |
 | Uses       | Psr\Link\EvolvableLinkInterface |
@@ -607,7 +607,7 @@ normally without errors.
 
 <h1 id="html-link-evolvablelinkprovider">Class Phalcon\Html\Link\EvolvableLinkProvider</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/EvolvableLinkProvider.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/Evolvablelinkprovider.zep)
 
 | Namespace  | Phalcon\Html\Link |
 | Uses       | Psr\Link\EvolvableLinkProviderInterface, Psr\Link\LinkInterface |
@@ -738,7 +738,7 @@ Determines if a href is a templated link or not.
 
 <h1 id="html-link-linkprovider">Class Phalcon\Html\Link\LinkProvider</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/LinkProvider.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Html/Link/Linkprovider.zep)
 
 | Namespace  | Phalcon\Html\Link |
 | Uses       | Psr\Link\LinkInterface, Psr\Link\LinkProviderInterface |

@@ -749,7 +749,7 @@ Renders the element widget
 
 <h1 id="forms-element-textarea">Class Phalcon\Forms\Element\TextArea</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Forms/Element/TextArea.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Forms/Element/Textarea.zep)
 
 | Namespace  | Phalcon\Forms\Element |
 | Uses       | Phalcon\Tag |

@@ -290,7 +290,7 @@ Exceptions thrown in Phalcon\Cache will use this class
 
 <h1 id="cache-exception-invalidargumentexception">Class Phalcon\Cache\Exception\InvalidArgumentException</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Cache/Exception/InvalidArgumentException.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Cache/Exception/InvalidargumentException.zep)
 
 | Namespace  | Phalcon\Cache\Exception |
 | Extends    | \Phalcon\Exception |

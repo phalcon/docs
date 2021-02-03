@@ -337,7 +337,7 @@ Prepares a label for the field.
 
 <h1 id="validation-abstractvalidatorcomposite">Abstract Class Phalcon\Validation\AbstractValidatorComposite</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/AbstractValidatorComposite.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/AbstractValidatorcomposite.zep)
 
 | Namespace  | Phalcon\Validation |
 | Uses       | Phalcon\Validation |
@@ -841,7 +841,7 @@ Compare strings
 
 <h1 id="validation-validator-creditcard">Class Phalcon\Validation\Validator\CreditCard</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/CreditCard.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Creditcard.zep)
 
 | Namespace  | Phalcon\Validation\Validator |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator |
@@ -1118,7 +1118,7 @@ class
 
 <h1 id="validation-validator-exclusionin">Class Phalcon\Validation\Validator\ExclusionIn</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/ExclusionIn.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Exclusionin.zep)
 
 | Namespace  | Phalcon\Validation\Validator |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator, Phalcon\Validation\Exception |
@@ -1279,7 +1279,7 @@ Constructor
 
 <h1 id="validation-validator-file-abstractfile">Abstract Class Phalcon\Validation\Validator\File\AbstractFile</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/File/AbstractFile.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/File/Abstractfile.zep)
 
 | Namespace  | Phalcon\Validation\Validator\File |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator |
@@ -1431,7 +1431,7 @@ public function setMessageValid( $messageValid )
 
 <h1 id="validation-validator-file-mimetype">Class Phalcon\Validation\Validator\File\MimeType</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/File/MimeType.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/File/Mimetype.zep)
 
 | Namespace  | Phalcon\Validation\Validator\File |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\Exception |
@@ -2019,7 +2019,7 @@ Executes the validation
 
 <h1 id="validation-validator-inclusionin">Class Phalcon\Validation\Validator\InclusionIn</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/InclusionIn.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Inclusionin.zep)
 
 | Namespace  | Phalcon\Validation\Validator |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator, Phalcon\Validation\Exception |
@@ -2242,7 +2242,7 @@ Executes the validation
 
 <h1 id="validation-validator-presenceof">Class Phalcon\Validation\Validator\PresenceOf</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/PresenceOf.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Presenceof.zep)
 
 | Namespace  | Phalcon\Validation\Validator |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator |
@@ -2377,7 +2377,7 @@ Executes the validation
 
 <h1 id="validation-validator-stringlength">Class Phalcon\Validation\Validator\StringLength</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/StringLength.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Stringlength.zep)
 
 | Namespace  | Phalcon\Validation\Validator |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation\AbstractValidator, Phalcon\Validation\AbstractValidatorComposite, Phalcon\Validation\Validator\StringLength\Max, Phalcon\Validation\Validator\StringLength\Min, Phalcon\Validation\Exception |
@@ -2457,7 +2457,7 @@ Constructor
 
 <h1 id="validation-validator-stringlength-max">Class Phalcon\Validation\Validator\StringLength\Max</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/StringLength/Max.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Stringlength/Max.zep)
 
 | Namespace  | Phalcon\Validation\Validator\StringLength |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator, Phalcon\Validation\Exception |
@@ -2534,7 +2534,7 @@ Executes the validation
 
 <h1 id="validation-validator-stringlength-min">Class Phalcon\Validation\Validator\StringLength\Min</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/StringLength/Min.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/Validator/Stringlength/Min.zep)
 
 | Namespace  | Phalcon\Validation\Validator\StringLength |
 | Uses       | Phalcon\Messages\Message, Phalcon\Validation, Phalcon\Validation\AbstractValidator, Phalcon\Validation\Exception |
@@ -2798,7 +2798,7 @@ Executes the validation
 
 <h1 id="validation-validatorcompositeinterface">Interface Phalcon\Validation\ValidatorCompositeInterface</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/ValidatorCompositeInterface.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Validation/ValidatorcompositeInterface.zep)
 
 | Namespace  | Phalcon\Validation |
 | Uses       | Phalcon\Validation |

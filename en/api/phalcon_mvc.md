@@ -1172,7 +1172,7 @@ Exceptions thrown in Phalcon\Mvc\Micro will use this class
 
 <h1 id="mvc-micro-lazyloader">Class Phalcon\Mvc\Micro\LazyLoader</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Micro/LazyLoader.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Micro/Lazyloader.zep)
 
 | Namespace  | Phalcon\Mvc\Micro |
 | Uses       | Phalcon\Mvc\Model\BinderInterface |
@@ -2858,7 +2858,7 @@ Checks whether the behavior must take action on certain event
 
 <h1 id="mvc-model-behavior-softdelete">Class Phalcon\Mvc\Model\Behavior\SoftDelete</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Behavior/SoftDelete.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Behavior/Softdelete.zep)
 
 | Namespace  | Phalcon\Mvc\Model\Behavior |
 | Uses       | Phalcon\Mvc\ModelInterface, Phalcon\Mvc\Model\Behavior, Phalcon\Mvc\Model\Exception |
@@ -4651,7 +4651,7 @@ Sets if a model must use dynamic update instead of the all-field update
 
 <h1 id="mvc-model-metadata">Abstract Class Phalcon\Mvc\Model\MetaData</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata.zep)
 
 | Namespace  | Phalcon\Mvc\Model |
 | Uses       | Phalcon\Cache\Adapter\AdapterInterface, Phalcon\Di\DiInterface, Phalcon\Di\InjectionAwareInterface, Phalcon\Mvc\Model\MetaData\Strategy\Introspection, Phalcon\Mvc\Model\MetaData\Strategy\StrategyInterface, Phalcon\Mvc\ModelInterface |
@@ -5120,7 +5120,7 @@ Initialize the metadata for certain table
 
 <h1 id="mvc-model-metadata-apcu">Class Phalcon\Mvc\Model\MetaData\Apcu</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Apcu.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Apcu.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData |
 | Uses       | Phalcon\Helper\Arr, Phalcon\Mvc\Model\MetaData, Phalcon\Mvc\Model\Exception, Phalcon\Cache\AdapterFactory |
@@ -5156,7 +5156,7 @@ Phalcon\Mvc\Model\MetaData\Apcu constructor
 
 <h1 id="mvc-model-metadata-libmemcached">Class Phalcon\Mvc\Model\MetaData\Libmemcached</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Libmemcached.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Libmemcached.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData |
 | Uses       | Phalcon\Helper\Arr, Phalcon\Mvc\Model\Exception, Phalcon\Mvc\Model\MetaData, Phalcon\Cache\AdapterFactory |
@@ -5187,7 +5187,7 @@ Flush Memcache data and resets internal meta-data in order to regenerate it
 
 <h1 id="mvc-model-metadata-memory">Class Phalcon\Mvc\Model\MetaData\Memory</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Memory.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Memory.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData |
 | Uses       | Phalcon\Mvc\Model\MetaData, Phalcon\Mvc\Model\Exception |
@@ -5223,7 +5223,7 @@ Writes the meta-data to temporal memory
 
 <h1 id="mvc-model-metadata-redis">Class Phalcon\Mvc\Model\MetaData\Redis</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Redis.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Redis.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData |
 | Uses       | Phalcon\Helper\Arr, Phalcon\Mvc\Model\MetaData, Phalcon\Cache\AdapterFactory |
@@ -5268,7 +5268,7 @@ Flush Redis data and resets internal meta-data in order to regenerate it
 
 <h1 id="mvc-model-metadata-strategy-annotations">Class Phalcon\Mvc\Model\MetaData\Strategy\Annotations</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Strategy/Annotations.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Strategy/Annotations.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData\Strategy |
 | Uses       | Phalcon\Di\DiInterface, Phalcon\Db\Column, Phalcon\Mvc\ModelInterface, Phalcon\Mvc\Model\MetaData, Phalcon\Mvc\Model\Exception |
@@ -5300,7 +5300,7 @@ The meta-data is obtained by reading the column descriptions from the database i
 
 <h1 id="mvc-model-metadata-strategy-introspection">Class Phalcon\Mvc\Model\MetaData\Strategy\Introspection</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Strategy/Introspection.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Strategy/Introspection.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData\Strategy |
 | Uses       | Phalcon\Di\DiInterface, Phalcon\Db\Adapter\AdapterInterface, Phalcon\Db\Column, Phalcon\Mvc\ModelInterface, Phalcon\Mvc\Model\Exception, Phalcon\Mvc\Model\MetaData |
@@ -5329,7 +5329,7 @@ The meta-data is obtained by reading the column descriptions from the database i
 
 <h1 id="mvc-model-metadata-strategy-strategyinterface">Interface Phalcon\Mvc\Model\MetaData\Strategy\StrategyInterface</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Strategy/StrategyInterface.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Strategy/StrategyInterface.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData\Strategy |
 | Uses       | Phalcon\Mvc\ModelInterface, Phalcon\Di\DiInterface |
@@ -5362,7 +5362,7 @@ The meta-data is obtained by reading the column descriptions from the database i
 
 <h1 id="mvc-model-metadata-stream">Class Phalcon\Mvc\Model\MetaData\Stream</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaData/Stream.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Metadata/Stream.zep)
 
 | Namespace  | Phalcon\Mvc\Model\MetaData |
 | Uses       | Phalcon\Mvc\Model\MetaData, Phalcon\Mvc\Model\Exception |
@@ -5412,7 +5412,7 @@ Writes the meta-data to files
 
 <h1 id="mvc-model-metadatainterface">Interface Phalcon\Mvc\Model\MetaDataInterface</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetaDataInterface.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/MetadataInterface.zep)
 
 | Namespace  | Phalcon\Mvc\Model |
 | Uses       | Phalcon\Mvc\ModelInterface, Phalcon\Mvc\Model\MetaData\Strategy\StrategyInterface |
@@ -8678,7 +8678,7 @@ Enables throwing exception
 
 <h1 id="mvc-model-validationfailed">Class Phalcon\Mvc\Model\ValidationFailed</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/ValidationFailed.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/Model/Validationfailed.zep)
 
 | Namespace  | Phalcon\Mvc\Model |
 | Uses       | Phalcon\Mvc\ModelInterface |
@@ -8989,7 +8989,7 @@ Check whether validation process has generated any messages
 
 <h1 id="mvc-moduledefinitioninterface">Interface Phalcon\Mvc\ModuleDefinitionInterface</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/ModuleDefinitionInterface.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/ModuledefinitionInterface.zep)
 
 | Namespace  | Phalcon\Mvc |
 | Uses       | Phalcon\Di\DiInterface |
@@ -11152,7 +11152,7 @@ Phalcon\Mvc\View\Engine\Php
 
 <h1 id="mvc-view-engine-abstractengine">Abstract Class Phalcon\Mvc\View\Engine\AbstractEngine</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/View/Engine/AbstractEngine.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/View/Engine/Abstractengine.zep)
 
 | Namespace  | Phalcon\Mvc\View\Engine |
 | Uses       | Phalcon\Di\DiInterface, Phalcon\Di\Injectable, Phalcon\Mvc\ViewBaseInterface |
@@ -12048,7 +12048,7 @@ Phalcon\Mvc\View\Engine\Php
 
 <h1 id="mvc-viewbaseinterface">Interface Phalcon\Mvc\ViewBaseInterface</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/ViewBaseInterface.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Mvc/ViewbaseInterface.zep)
 
 | Namespace  | Phalcon\Mvc |
 | Uses       | Phalcon\Cache\Adapter\AdapterInterface |

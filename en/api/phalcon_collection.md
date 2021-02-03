@@ -232,7 +232,7 @@ Exceptions for the Collection object
 
 <h1 id="collection-readonly">Class Phalcon\Collection\ReadOnly</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Collection/ReadOnly.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Collection/Readonly.zep)
 
 | Namespace  | Phalcon\Collection |
 | Uses       | Phalcon\Collection |

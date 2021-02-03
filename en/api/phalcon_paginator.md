@@ -260,7 +260,7 @@ Returns a slice of the resultset to show in the pagination
 
 <h1 id="paginator-adapter-querybuilder">Class Phalcon\Paginator\Adapter\QueryBuilder</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Paginator/Adapter/QueryBuilder.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Paginator/Adapter/Querybuilder.zep)
 
 | Namespace  | Phalcon\Paginator\Adapter |
 | Uses       | Phalcon\Db\Enum, Phalcon\Mvc\Model\Query\Builder, Phalcon\Paginator\RepositoryInterface, Phalcon\Paginator\Exception |

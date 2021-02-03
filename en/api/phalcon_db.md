@@ -34,7 +34,7 @@ title: 'Phalcon\Db'
 
 <h1 id="db-abstractdb">Abstract Class Phalcon\Db\AbstractDb</h1>
 
-[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Db/AbstractDb.zep)
+[Source on GitHub](https://github.com/phalcon/cphalcon/blob/v{{ page.version }}.0/phalcon/Db/Abstractdb.zep)
 
 | Namespace  | Phalcon\Db |
 | Uses       | \PDO |
